@@ -7,7 +7,9 @@ var template = {
       columnID: 0,
       campus: [
          { name: "IIT", documentName: "resources/uacj.iit.csv" },
-         { name: "ICB", documentName: "resources/uacj.icb.csv" }
+         { name: "ICB", documentName: "resources/uacj.icb.csv" },
+         { name: "IADA", documentName: "resources/uacj.iada.csv" },
+         { name: "ICSA", documentName: "resources/uacj.icsa.csv" }
       ]
    }
 }
