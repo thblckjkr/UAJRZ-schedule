@@ -4,8 +4,10 @@ var template = {
       baseUrl: "https://escolar.uacj.mx/alumnos/info_linea/frmMateriasCursar.aspx",
       tableId: "GridView_MateriasPorCursarPlan",
       columnName: "Clave",
-      IIT : {
-         documentName: "uacj.iit.csv"
-      }
+      columnID: 0,
+      campus: [
+         { name: "IIT", documentName: "resources/uacj.iit.csv" },
+         { name: "ICB", documentName: "resources/uacj.icb.csv" }
+      ]
    }
 }

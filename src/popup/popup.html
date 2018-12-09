@@ -5,11 +5,19 @@
    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-   <h2>Almacenar datos</h2>
+   <h3>Almacenar datos</h3>
 
-   ¿Almacenar información de materias sistema?
-   <input type="checkbox" id="switch" name="some-switch">
-   <label for="switch"></label>
+   <div class="action">
+      <p>¿Almacenar información de materias para obtener horario?</p>
+      <input type="checkbox" id="switch" name="some-switch" checked>
+      <label for="switch"></label>
+      <p>
+         Materias almacenadas: <span id="count">0</span>
+      </p>
+      <select id="select-campus"></select>
+      <button id="btn-clean" class="btn btn-primary">Limpiar</button>
+      <button id="btn-save" class="btn btn-success">Guardar horario</button>
+   </div>
 
    <script src="popup.js"></script>
 </body>
