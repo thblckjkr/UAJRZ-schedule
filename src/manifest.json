@@ -6,7 +6,7 @@
       "declarativeContent",
       "activeTab",
       "storage",
-      "https://*uacj.mx/*"
+      "https://escolar.uacj.mx/*"
    ],
    "background": {
      "scripts": ["background.js", "resources/template.js"],
