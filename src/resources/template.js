@@ -9,7 +9,8 @@ var template = {
          { name: "IIT", documentName: "resources/uacj.iit.csv" },
          { name: "ICB", documentName: "resources/uacj.icb.csv" },
          { name: "IADA", documentName: "resources/uacj.iada.csv" },
-         { name: "ICSA", documentName: "resources/uacj.icsa.csv" }
+         { name: "ICSA", documentName: "resources/uacj.icsa.csv" },
+         { name: "CU", documentName: "resources/uacj.cu.csv" }
       ]
    }
 }
