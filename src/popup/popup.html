@@ -10,13 +10,15 @@
    <div class="action">
       <p>¿Almacenar información de materias para obtener horario?</p>
       <input type="checkbox" id="switch" name="some-switch" checked>
-      <label for="switch"></label>
+      <label class="switch-label" for="switch"></label>
       <p>
-         Materias almacenadas: <span id="count">0</span>
+         Materias almacenadas: <b id="count">0</b>
       </p>
-      <select id="select-campus"></select>
-      <button id="btn-clean" class="btn btn-primary">Limpiar</button>
+      <p>Selecciona tu campus</p>
+      <select id="select-campus" class="btn"></select>
+      <br>
       <button id="btn-save" class="btn btn-success">Guardar horario</button>
+      <button id="btn-clean" class="btn btn-primary">Limpiar</button>
    </div>
 
    <script src="popup.js"></script>
