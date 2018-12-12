@@ -53,10 +53,11 @@ function download(data, filename, type) {
 function ex(stringfile){
    var data = stringfile.split("\n");
    var final = [];
-   final.push(data[0]);
-   for(var i = 0; i < data.length; i++){
+   final.push(data[0]); // Export the headers of the original file
+
+   for(var i = 1; i < data.length; i++){
       var temp = data[i].split(",");
-      for(var j = 1; j < pending.length; j++){
+      for(var j = 0; j < pending.length; j++){
          if( temp[ template.UACJ.columnID ].split("-").join("") == pending[j][ template.UACJ.columnName ] ){
             final.push( temp.join(",") );
          }
