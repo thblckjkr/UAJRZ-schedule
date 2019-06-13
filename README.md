@@ -14,4 +14,4 @@ Para evitar problemas de nombres, o de acceso a informacion restringida (como es
 
 - Se intentará, no monetizar de ninguna forma los accesos.
 
-Para realizar contribuciónes al código, se deben apegar al los lineamientos.
+Para realizar contribuciónes al código, se deben apegar al los lineamientos (Cuales? Quien sabe)
