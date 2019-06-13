@@ -1,6 +1,6 @@
 {
    "name": "UAJRZ-schedule",
-   "version": "0.1.5a",
+   "version": "0.1.51",
    "description": "A little chrome extension to make possible the automatic schedule for UACJ academics.",
    "permissions": [
       "declarativeContent",
